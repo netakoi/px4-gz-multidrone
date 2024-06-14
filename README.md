@@ -44,7 +44,9 @@ Run command below to launch a single drone simulation.
 (Temporal)
 ```bash
 docker exec -u user -it jw_practice bash
-source /opt/ros/foxy/setup.bash 
+source /opt/ros/foxy/setup.bash
+MicroXRCEAgent udp4 -p 8888
+./Tools/simulation/gazebo-classic/sitl_multiple_run.sh -n 1 -m iris
 ```
 
 
