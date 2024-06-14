@@ -41,3 +41,10 @@ Run command below to launch a single drone simulation.
 ./Tools/simulation/gazebo-classic/sitl_multiple_run.sh -n 1 -m iris
 ```
 
+(Temporal)
+```bash
+docker exec -u user -it jw_practice bash
+source /opt/ros/foxy/setup.bash 
+```
+
+
